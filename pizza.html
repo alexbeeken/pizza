@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Builder.com</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Pizza Builder.com</h1>
+        <div id="formOrderDiv">
+          <form id="formOrder">
+            <input type="number" min="1" max="20" step="0">
+            <input type="checkbox" id="pepperoni">Add Pepperoni
+            <button type="submit">Order A Pizza</button>
+          </form>
+        </div>
+
+        <div id="priceShow">
+          <p>Your pizza will cost <span id="price"></span></p>
+        </div>
+    </div>
+  </body>
+</html>
