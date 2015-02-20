@@ -11,14 +11,17 @@
         <h1>Pizza Builder.com</h1>
         <div id="formOrderDiv">
           <form id="formOrder">
-            <input type="number" min="1" max="20" step="0" id="size">
+            <label for="size">Diameter:</label>
+            <input type="number" min="1" max="50" step="0" id="size">
+            <br>
             <input type="checkbox" id="addPepperoni">Add Pepperoni
+            <br>
             <button type="submit">Order A Pizza</button>
           </form>
         </div>
 
         <div id="priceShow">
-          <p>Your pizza will cost <span id="price"></span></p>
+          <p>Your pizza will cost <span id="price"></span> and you can cut it into <span id="slices"></span>.</p>
         </div>
     </div>
   </body>
