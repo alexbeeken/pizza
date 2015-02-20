@@ -1,14 +1,13 @@
-Triangle Type
+Pizza Builder
 ===============
 
-This is an app that tells you about a triangle when you give it measurements.
-
+This is an app that allows you to build your own pizza based on it's diameter. It tells you the price and number of slices that you can cut this pice into.
 
 ## Installation
 
-1. Navigate to a local directory of your choice and clone the project with `git clone http://github.com/alexbeeken/triangle.git`
+1. Navigate to a local directory of your choice and clone the project with `git clone http://github.com/alexbeeken/pizza.git`
 
-2. Click on triangle.html and run it in a browser.
+2. Click on pizza.html and run it in a browser.
 
 ## Testing
 
