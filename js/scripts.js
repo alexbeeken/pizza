@@ -48,8 +48,8 @@ $(document).ready(function() {
     var pizza = Object.create(Pizza);
     pizza.size = parseInt($("#size").val());
     pizza.hasPepperoni = ($("#addPepperoni")[0].checked);
-    $("#price").text(pizza.price);
-    $("#slices").text(pizza.slices);
+    $("#price").text(pizza.price());
+    $("#slices").text(pizza.slices());
     $("#priceShow").show();
   });
 })
